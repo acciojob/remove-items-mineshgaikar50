@@ -1,4 +1,4 @@
-document.getElementById('removeButton').addEventListener('click', () => {
+document.querySelector('input[type="button"]').addEventListener('click', () => {
     const colorSelect = document.getElementById('colorSelect');
 
     // Get the selected option
